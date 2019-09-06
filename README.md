@@ -1,3 +1,2 @@
 # StratusWalk
-include installation details here
-include product description here
+tappedoutAPI does not belong to me and is used for testing purposes only
