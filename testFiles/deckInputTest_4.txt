@@ -1,0 +1,36 @@
+3 Arid Mesa (MM3) 229
+4 Bedlam Reveler (EMN) 118
+2 Blood Crypt (RTR)
+3 Bloodstained Mire (KTK) 230
+1 Chandra, Torch of Defiance (KLD) 110
+2 Collective Brutality (EMN) 85
+3 Dragonskull Summit (M11)
+4 Faithless Looting (DKA)
+2 Fatal Push (FNM)
+1 Ghostly Prison (C16)
+1 Hazoret the Fervent (AKH) 136
+4 Inquisition of Kozilek (MM3) 75
+3 Kolaghan's Command (DTK) 224
+4 Lightning Bolt (M11)
+4 Lingering Souls (DKA)
+1 Manamorphose (MMA)
+3 Mountain (BFZ)
+1 Plains (HOU)
+2 Sacred Foundry (GTC)
+1 Swamp (UN3)
+2 Terminate (MM3)
+3 Thoughtseize (THS)
+2 Wooded Foothills (KTK) 249
+4 Young Pyromancer (M14)
+
+1 Anger of the Gods (THS)
+1 Blessed Alliance (EMN) 13
+1 Chandra, Torch of Defiance (KLD) 110
+1 Crackling Doom (C17) 167
+2 Deflecting Palm (KTK) 173
+1 Dreadbore (RTR)
+1 Kambal, Consul of Allocation (KLD) 183
+2 Molten Rain (MM3) 103
+2 Nihil Spellbomb (SOM)
+1 Shattering Spree (GPT)
+2 Wear // Tear (DGM) 135

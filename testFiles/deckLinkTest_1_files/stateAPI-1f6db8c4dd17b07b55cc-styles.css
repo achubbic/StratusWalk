@@ -1,0 +1,11 @@
+.state-owner, .state-admin, .state-change, .state-authenticated, .state-chat-enabled,
+.state-shared-edit, .state-upgraded, .state-anonymous, .state-not-facebook, .state-not-upgraded,
+.state-not-comment-tutorial, .state-comment-tutorial, .state-cm-edit, .state-cm-remove,
+.state-cm-change, .state-cm-delete, .state-deck-ad, .state-ad, .state-votes,
+.state-ignored-suggestions, .state-shared-with, .state-suggestions, .state-competitive,
+.state-acquire, .state-cm-can-upvote, .state-cm-upvoted, .state-cm-anonym-upvote, .state-change-user,
+.state-change-userprofile, .state-has-binder, .state-has-alters, .state-blocked, .state-not-blocked,
+.state-chat, .state-not-chat, .state-friend, .state-not-friend, .state-other-user, .state-admin-divider,
+.state-mark-safe, .state-mark-unsafe, .state-share, .state-competitive-feedback {
+    display: none !important;
+}

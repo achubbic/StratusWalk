@@ -1,0 +1,96 @@
+#png-export {
+    padding: 0px 25px;
+    width:600px;
+}
+
+#export-chart {
+    background-image: url(bd1f5d30fd6a49927b7cc1f25f2894a2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center-top
+}
+
+#export-cards {
+    background: #1e2223; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1e2223 0%, #000000 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1e2223 0%,#000000 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1e2223 0%,#000000 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e2223', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+#export-title {
+    background: #1d2223; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1d2223 0%, #000000 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1d2223 0%,#000000 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1d2223 0%,#000000 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2223', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+img.featured-card.featured-export {
+    margin-top: -30px;
+}
+
+.title-text {
+    padding-left: 40px;
+    height: 125px;
+}
+
+.title-text p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    width: 98%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px 30px;
+    margin: 0px;
+    background: #565656;
+    background: -moz-linear-gradient(top, #565656 -1%, #000000 100%);
+    background: -webkit-linear-gradient(top, #565656 -1%,#000000 100%);
+    background: linear-gradient(to bottom, #565656 -1%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#000000',GradientType=0 );
+}
+
+.title-text h2 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: 8px;
+}
+
+.padding-col-s {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+
+.col-divider {
+    border-left: 1px solid #CCC;
+    border-color: #3D3D3D;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.vertical-padding-m {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#export-cards .board-col h3 {
+    margin: 0px;
+}
+
+#export-cards span {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#export-download-btn {
+    margin-bottom: 20px;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+}
