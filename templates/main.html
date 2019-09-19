@@ -1,0 +1,83 @@
+{% extends 'skeleton.html' %}
+
+{% block head %}
+<title>SubmitTest</title>
+{% endblock %}
+
+{% block body %}
+<body style="background-color:#033F63;">
+
+<style>
+	#usage {
+		position: fixed;
+		top:460px;
+		left:372px;
+		color:gray;
+	}
+	#grade_form {
+		position: absolute;
+		left: 770px;
+		top:150px;
+		color:#FFFFFF;
+	}
+	#Mono-Banner {
+		background-color:#1282D8;
+		height: 8%;
+		position:absolute;
+		top:0;
+		left: 0;
+		width:100%;
+		border: 1px solid red;
+		border-color:#739FC1;
+	}
+	#input-form {
+    position: absolute;
+    top:90px;
+    left: 370px;
+    color: #FFFFFF;
+  }
+</style>
+
+<section id="Mono-Banner">
+</section>
+
+<form id="input-form">
+	<div class="row">
+		<label for="name">Import Deck</label><br />
+		<input id="name" class="input" placeholder="www.decklist.com/yourDeck..." name="name" type="text" value="" size="30" /> &nbsp; &nbsp;
+		<input type="submit" value="Import">
+		<br>
+	</div>
+	<div class="row">
+		<label for="message">or</label><br />
+		<textarea id="message" class="input" name="message" rows="20" cols="45" placeholder="add cards..."></textarea><br />
+	</div>
+
+</form>
+
+<form id="grade_form">
+<div>
+  	Minimum acceptable wear:<br>
+  <input type="radio" name="grade" value="NearMint" checked> Near Mint<br>
+  <input type="radio" name="grade" value="LightlyPlayed"> Lightly Played<br>
+  <input type="radio" name="grade" value="ModeratelyPlayed"> Moderately Played<br>
+  <input type="radio" name="grade" value="Damaged"> Damaged  <br> <br>
+</div>
+
+<div>
+	Accept foreign cards?
+	<br>
+  <input type="radio" name="foreign" value="N" checked> No<br>
+  <input type="radio" name="foreign" value="Y"> Yes<br><br>
+</div>
+</form>
+
+<font id="usage" size="2">
+
+	usage:<br>
+	2x Noble Heirarch &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; or<br>
+	3 Jace the mind sculptor &nbsp; &nbsp; &nbsp; &nbsp;or<br>
+	aether vial &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;(adds one)
+
+</font>
+{% endblock %}
