@@ -1,4 +1,4 @@
 # StratusWalk
-tappedoutAPI does not belong to me and is used for testing purposes only  
+https://StratusWalk.net/ is not currently live, but uses this framework  
+If you have suggestions regarding how to run the Flask scripts with static html pages, please email me at achubbic@ucsc.edu  
 todo: include installation guide  
-local repo must be updated
