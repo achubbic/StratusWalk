@@ -11,4 +11,5 @@ import scrapy
 class TappedoutscraperItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    author_name = scrapy.Field()
     pass
