@@ -66,9 +66,12 @@
 import json
 
 def smooth(cardNames):
+    toReturn = []
     for card in range(len(cardNames)):
-        cardNames[card] = cardNames[card].strip()
-    return cardNames
+        if (cardNames[card][0] == '\n'):
+            toReturn.append(cardNames[card].strip())
+        # cardNames[card] = cardNames[card].strip()
+    return toReturn
 
 if __name__ == "__main__":
     file = open('./tappedOutScraper/spiderOutput.json')
