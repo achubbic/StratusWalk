@@ -1,0 +1,6 @@
+#!/bin/bash
+scrapy crawl tappedOutSpider -o tappedoutOutput.json -a https://tappedout.net/mtg-decks/05-12-19-muldrotha-40/
+wait
+python filter.py $(DECKNAME)
+wait
+python format.py $(DECKNAME)
