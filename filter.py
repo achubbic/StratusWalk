@@ -27,8 +27,6 @@ def smooth(cardNames):
     return toReturn
 
 if __name__ == "__main__":
-    print(sys.argv[1])
-    print(os.getcwd())
     file = open('./tappedOutScraper/spiderOutput.json')
     data = json.load(file)
     for dictionary in data:
