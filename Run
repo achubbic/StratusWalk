@@ -1,8 +1,9 @@
 #!/bin/bash
 DECKNAME=$1
+DECKURL=$2
 cd tappedOutScraper
 # wait
-scrapy crawl tappedOutSpider -o spiderOutput.json -a url=https://tappedout.net/mtg-decks/05-12-19-muldrotha-40/
+scrapy crawl tappedOutSpider -o spiderOutput.json -a url=$DECKURL
 wait
 cd ..
 # wait
