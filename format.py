@@ -28,4 +28,4 @@ for image in os.listdir(path):
 	r.add_picture(path + "/" + image, width=Inches(2.5), height=Inches(3.5))
 
 document.save('printableSheet.docx')
-
+os.unlink('./tappedOutScraper/spiderOutput.json')

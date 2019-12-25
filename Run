@@ -2,10 +2,10 @@
 DECKNAME=$1
 cd tappedOutScraper
 wait
-# scrapy crawl tappedOutSpider -o spiderOutput.json -a url=https://tappedout.net/mtg-decks/05-12-19-muldrotha-40/
-# wait
-# cd ..
-# wait
-python filter.py $DECKNAME
-#wait
-#python format.py $(DECKNAME)
+scrapy crawl tappedOutSpider -o spiderOutput.json -a url=https://tappedout.net/mtg-decks/05-12-19-muldrotha-40/
+wait
+cd ..
+wait
+python C:/Users/aac52/Documents/StratusWalk/filter.py $DECKNAME
+wait
+python C:/Users/aac52/Documents/StratusWalk/format.py $DECKNAME
