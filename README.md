@@ -1,7 +1,7 @@
 # StratusWalk
 What is it?: StratusWalk is a means of easily proxying Magic the Gathering cards  
 How to use it: Download the packages, then call the command  
-Run deckName deckURL  
+./Run deckName deckURL  
   
 Where deckname is whatever you choose to name your deck and deckURL is the link to your deck on tappedout    
 
